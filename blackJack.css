@@ -1,0 +1,90 @@
+/* .container{
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: center;
+  background-image: url("plain-green.jpg");
+  background-size: cover;
+  
+  border-radius: 20px;
+  padding: 20px 30px;
+}
+h1{
+  color: gold;
+  font-weight: bold;
+  
+}
+.play{
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+  color: white;
+}
+.cards, .sum{
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+} */
+
+body{
+  background-image: linear-gradient(to right, rgb(0, 48, 0) , rgb(2, 117, 2), rgb(0, 59, 0));
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  
+}
+h1{
+  
+  color: goldenrod;
+  font-weight: bold;
+  
+}
+#message-el{
+  font-style: italic;
+}
+button{
+  color: #016f32;
+  width: 150px;
+  background-color: goldenrod;
+  border: none;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  border-radius: 2px;
+  padding: 5px 15px; 
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
+
+.button-container{
+  width: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin:auto;
+}
+@media (min-width: 630px){
+
+    .button-container{
+      width: 400px;
+      margin: auto;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+  
+  
+}
+
+#message-El{
+  font-style: italic;
+}
+#player-El{
+  display: block;
+  width: auto;
+}
